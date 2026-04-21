@@ -1,0 +1,4 @@
+Contact: mailto:davidiruegas@gmail.com
+Preferred-Languages: en
+Canonical: https://www.proofbranch.com/.well-known/security.txt
+Expires: 2027-04-21T00:00:00Z

@@ -562,6 +562,10 @@ a {
   box-shadow: 0 16px 44px rgba(17, 22, 21, 0.08);
 }
 
+.hidden-field {
+  display: none;
+}
+
 .access-form label {
   display: grid;
   gap: 0.45rem;
