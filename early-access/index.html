@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request Early Access | ProofBranch</title>
+    <meta
+      name="description"
+      content="Request early access to ProofBranch for platform partner conversations and prelaunch product feedback."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../">ProofBranch</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../product/">Product</a>
+        <a href="../workflow/">Workflow</a>
+        <a href="../evidence-standard/">Evidence Standard</a>
+        <a aria-current="page" class="nav-cta" href="../early-access/"
+          >Early Access</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero contact-hero">
+        <div class="page-hero-inner">
+          <p class="eyebrow">Early access</p>
+          <h1>Help shape the evidence layer for family-history platforms.</h1>
+          <p>
+            ProofBranch is prelaunch and looking for platform partners, pilot
+            users, and integration conversations around source-backed branch
+            review.
+          </p>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="form-copy">
+          <p class="eyebrow">Partner signal</p>
+          <h2>Tell us what kind of research workflow you want to make possible.</h2>
+          <p>
+            The form is structured for early partner conversations. If the
+            endpoint is not connected yet, use the email fallback below and the
+            same details will be enough.
+          </p>
+          <a
+            class="inline-link"
+            href="mailto:davidiruegas@gmail.com?subject=ProofBranch%20early%20access"
+            >Email davidiruegas@gmail.com</a
+          >
+        </div>
+
+        <form
+          class="access-form"
+          action="https://formspree.io/f/REPLACE_WITH_FORM_ID"
+          method="POST"
+        >
+          <label>
+            Name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            Company or organization
+            <input name="organization" type="text" autocomplete="organization" />
+          </label>
+          <label>
+            Role
+            <input name="role" type="text" autocomplete="organization-title" />
+          </label>
+          <label>
+            What are you building?
+            <textarea name="what-you-are-building" rows="4" required></textarea>
+          </label>
+          <label>
+            Partnership interest
+            <select name="partnership-interest" required>
+              <option value="">Select one</option>
+              <option>Platform integration</option>
+              <option>Pilot user feedback</option>
+              <option>Research workflow design</option>
+              <option>Investor or advisor conversation</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5"></textarea>
+          </label>
+          <button class="button button-primary" type="submit">
+            Request early access
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>ProofBranch is building agentic evidence workflows for family-history platforms.</p>
+      <nav aria-label="Footer">
+        <a href="../product/">Product</a>
+        <a href="../workflow/">Workflow</a>
+        <a href="../evidence-standard/">Evidence Standard</a>
+        <a href="../early-access/">Request early access</a>
+      </nav>
+    </footer>
+  </body>
+</html>
