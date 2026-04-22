@@ -165,18 +165,9 @@ a {
 
 .page-hero-graph {
   background:
-    linear-gradient(120deg, rgba(17, 22, 21, 0.92), rgba(17, 22, 21, 0.55)),
-    url("./assets/constellation-concept-cropped.png") center / cover;
-}
-
-.product-hero .page-hero-image {
-  background-image: url("./assets/product-evidence-packet.jpg");
-  background-position: center;
-}
-
-.evidence-hero .page-hero-image {
-  background-image: url("./assets/evidence-comparison.jpg");
-  background-position: center;
+    radial-gradient(circle at 76% 18%, rgba(44, 109, 111, 0.32), transparent 36rem),
+    linear-gradient(120deg, rgba(17, 22, 21, 0.98), rgba(17, 22, 21, 0.86)),
+    var(--charcoal);
 }
 
 .page-hero-graph::after,
@@ -199,7 +190,8 @@ a {
       rgba(17, 22, 21, 0.78) 54%,
       rgba(17, 22, 21, 0.46) 100%
     ),
-    url("./assets/partner-review-workflow.jpg") center / cover;
+    radial-gradient(circle at 78% 24%, rgba(212, 106, 79, 0.18), transparent 28rem),
+    var(--charcoal);
 }
 
 .contact-hero .page-hero-inner {
