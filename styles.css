@@ -169,6 +169,16 @@ a {
     url("./assets/constellation-concept-cropped.png") center / cover;
 }
 
+.product-hero .page-hero-image {
+  background-image: url("./assets/product-evidence-packet.jpg");
+  background-position: center;
+}
+
+.evidence-hero .page-hero-image {
+  background-image: url("./assets/evidence-comparison.jpg");
+  background-position: center;
+}
+
 .page-hero-graph::after,
 .contact-hero::after {
   background:
@@ -183,8 +193,13 @@ a {
 .contact-hero {
   min-height: 58svh;
   background:
-    linear-gradient(135deg, rgba(44, 109, 111, 0.95), rgba(17, 22, 21, 0.98)),
-    var(--charcoal);
+    linear-gradient(
+      120deg,
+      rgba(17, 22, 21, 0.94) 0%,
+      rgba(17, 22, 21, 0.78) 54%,
+      rgba(17, 22, 21, 0.46) 100%
+    ),
+    url("./assets/partner-review-workflow.jpg") center / cover;
 }
 
 .contact-hero .page-hero-inner {
@@ -435,7 +450,8 @@ a {
 }
 
 .detail-visual,
-.wide-visual {
+.wide-visual,
+.asset-showcase figure {
   margin: 0;
   overflow: hidden;
   border-radius: 8px;
@@ -447,7 +463,8 @@ a {
 }
 
 .detail-visual img,
-.wide-visual img {
+.wide-visual img,
+.asset-showcase img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -456,8 +473,28 @@ a {
 }
 
 .detail-visual:hover img,
-.wide-visual:hover img {
+.wide-visual:hover img,
+.asset-showcase:hover img {
   transform: scale(1.025);
+}
+
+.asset-showcase {
+  padding: 0 1.5rem 5rem;
+}
+
+.asset-showcase-tight {
+  padding-bottom: 3rem;
+}
+
+.asset-showcase figure {
+  max-height: 42rem;
+  background: var(--charcoal);
+}
+
+.asset-showcase img {
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-position: center;
 }
 
 .wide-visual {
@@ -694,6 +731,11 @@ a {
   .form-section {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .asset-showcase {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   .hero-inner {
